@@ -1,0 +1,79 @@
+create table first(
+	id int(11) primary key auto_increment,
+	protocol varchar(255) not null,
+	principal varchar(255) not null,
+	co varchar(255) not null);
+
+create table A(
+	id int(11) primary key auto_increment,
+	A_comment_1 varchar(255) not null,
+	A_comment_2 varchar(255) not null,
+	A_comment_3 varchar(255) not null,
+	A_comment_4 varchar(255) not null,
+	A_choice_1 varchar(255) not null,
+	A_choice_2 varchar(255) not null,
+	A_choice_3 varchar(255) not null,
+	A_choice_4 varchar(255) not null);
+
+create table B(
+	id int(11) primary key auto_increment,
+	B_comment_1 varchar(255) not null,
+	B_comment_2 varchar(255) not null,
+	B_comment_3 varchar(255) not null,
+	B_comment_4 varchar(255) not null,
+	B_choice_1 varchar(255) not null,
+	B_choice_2 varchar(255) not null,
+	B_choice_3 varchar(255) not null,
+	B_choice_4 varchar(255) not null);
+
+create table C(
+	id int(11) primary key auto_increment,
+	C_comment_1 varchar(255) not null,
+	C_comment_2 varchar(255) not null,
+	C_comment_3 varchar(255) not null,
+	C_comment_4 varchar(255) not null,
+	C_comment_5 varchar(255) not null,
+	C_comment_6 varchar(255) not null,
+	C_comment_7 varchar(255) not null,
+	C_choice_1 varchar(255) not null,
+	C_choice_2 varchar(255) not null,
+	C_choice_3 varchar(255) not null,
+	C_choice_4 varchar(255) not null,
+	C_choice_5 varchar(255) not null,
+	C_choice_6 varchar(255) not null,
+	C_choice_7 varchar(255) not null);
+
+create table D(
+	id int(11) primary key auto_increment,
+	D_comment_1 varchar(255) not null,
+	D_comment_2 varchar(255) not null,
+	D_comment_3 varchar(255) not null,
+	D_choice_1 varchar(255) not null,
+	D_choice_2 varchar(255) not null,
+	D_choice_3 varchar(255) not null);
+
+create table E(
+	id int(11) primary key auto_increment,
+	E_comment_1 varchar(255) not null,
+	E_comment_2 varchar(255) not null,
+	E_comment_3 varchar(255) not null,
+	E_comment_4 varchar(255) not null,
+	E_comment_5 varchar(255) not null,
+	E_comment_6 varchar(255) not null,
+	E_comment_7 varchar(255) not null,
+	E_choice_1 varchar(255) not null,
+	E_choice_2 varchar(255) not null,
+	E_choice_3 varchar(255) not null,
+	E_choice_4 varchar(255) not null,
+	E_choice_5 varchar(255) not null,
+	E_choice_6 varchar(255) not null,
+	E_choice_7 varchar(255) not null);
+
+create table F(
+	id int(11) primary key auto_increment,
+	F_comment_1 varchar(255) not null,
+	F_choice_1 varchar(255) not null);
+
+create table recommendation(
+	id int(11) primary key auto_increment,
+	RECOM_choice_1 varchar(255) not null);
